@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+body {
+	width:960px;
+	margin: 0 auto;
+}
+
+#sony {
+	margin: 50px 0;
+}
+#sony h1 {
+
+	width: 360px;
+    margin: 20px auto;
+    font-size: 24px;
+}
+#sony h2 {
+	margin: 0;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+
+
+#sony #total-streams {
+	font-size: 14px;
+	padding-bottom: 20px;
+}
+
+#sony .btn {
+	background-color: #0073cf;
+	padding: 6px 15px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: 0 4px #0052c2;
+	border-radius: 5px;
+	position: relative;
+	margin-left: 8px;
+}
+
+
+#sony .btn:hover {
+	
+	box-shadow: 0 3px #0052c2;
+	top:2px;
+	
+}
+#sony .left {
+	float: left;
+}
+
+#sony .row {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	
+}
+#sony .row:after {
+	clear: both;
+	content:'';
+	display: block;
+}
+
+#sony img {
+	float: left;
+	height: 100px;
+	width: 100px;
+}
+
+#sony .col {
+	padding-left: 20px;
+}
+
+
+#sony #search-form {
+	border: 1px solid #ccc;
+	padding: 30px 20px;
+	
+
+}
+
+#sony input[type="text"] {
+	padding:10px;
+	border: 1px solid #ccc;
+}
+
+#sony #response-container {
+	position: relative;
+	min-height: 500px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-top:0;
+    display: none;
+}
+#sony .overlay {
+	position: absolute;
+	background: #ccc;
+	height: 100%;
+	width: 100%;
+	display: none;
+
+}
+
+#sony .top:after {
+	clear: both;
+	content: ' ';
+	display: block;
+}
+
+#sony .right {
+	float:right;
+}
+#sony #anotherWrap {
+	//display: none;
+}
+#sony .overlay span {
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	position: absolute;
+}
+#sony #nav-links {
+	margin:0;
+}
+#sony #nav-links:after {
+	clear: both;
+	content: ' ';
+	display: block;
+
+}
+#sony #nav-links li{
+	display: inline-block;
+	float: left;
+	list-style-type: none;
+	
+}
+
+#sony #nav-links #prev a{
+	height: 0;
+    width: 0;
+    border-right: 10px solid #ccc;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    display: block;
+}
+#sony #nav-links #next a{
+	height: 0;
+    width: 0;
+    border-left: 10px solid #ccc;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    display: block;
+}
+
+#sony #page-index {
+	padding: 0 10px;
+}
+
+#sony .error {
+	color: #f04124;
+}
