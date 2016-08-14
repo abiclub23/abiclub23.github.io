@@ -31,6 +31,10 @@ var sonyWebApp = (function () {
 		sectionDynaScript = document.getElementById('dyna-scripts'),
 		responseDiv = document.getElementById('response-container'),
 		resultsHtml = document.getElementById('results');
+
+		/*
+			click event for submit button 
+		*/
  	
 		elemBtn.addEventListener('click',function(){
 			var baseUrl;
@@ -44,6 +48,10 @@ var sonyWebApp = (function () {
 			}	
 
 		});
+
+		/*
+			click event for next arrow ( pagination )
+		*/
 
 		elemNext.addEventListener('click',function(){
 			var nextUrl;
@@ -61,6 +69,10 @@ var sonyWebApp = (function () {
 			_apiCall(nextUrl);
 		});
 
+		/*
+			click event for prev arrow ( pagination )
+		*/
+
 		elemPrev.addEventListener('click',function(){
 			var prevUrl;
 			_hide(resultsHtml);
@@ -76,6 +88,10 @@ var sonyWebApp = (function () {
 			_apiCall(prevUrl);
 		});
 
+		/*
+			keyDown event for enter key submit
+		*/
+
 		document.addEventListener('keydown',function(e){
 			
 			if(e.keyCode == 13){
@@ -87,6 +103,8 @@ var sonyWebApp = (function () {
 		_hide(elemPrev);
 		
 	};
+
+	/* Helper Private Functions */
 
 	var _apiCall = function(url){
 		
@@ -117,6 +135,10 @@ var sonyWebApp = (function () {
 		element.style.display = "block";
 		element.style.opacity = 1;
 	};
+	/*
+		JSONP callback function
+	*/
+
 	var _handleStream = function(data){
 		
 		    var channel,
@@ -156,12 +178,12 @@ var sonyWebApp = (function () {
 			    	streamDescr = channel.status;
 			    	
 			    	imgHtml = "<img src="+streamImg+" alt='Stream Preview Image' tabindex='0'>";
-			    	divInner += '<div class="col left"> ';
+			    	divInner += '<div class="pl-20 left"> ';
 			    	divInner += '<h2> '+ streamDisplayName+'</h2>';
 			    	divInner += '<p class="gname">'+streamlGameName+' - '+streamViewers+' viewers</p>';
 			    	divInner += '<p class="">'+streamDescr+' </p>';
 			    	divInner += '</div> ';
-			    	wrapperHtml += '<div class="row stream-'+index+'"> ';
+			    	wrapperHtml += '<div class="row clear-both stream-'+index+'"> ';
 			    	wrapperHtml += imgHtml + divInner;
 			    	wrapperHtml += '</div> ';
 
@@ -175,7 +197,6 @@ var sonyWebApp = (function () {
 
 		    }else{
 		    	
-		    	//_hide(elemNext);
 		    	_hide(elemNavs);
 		    	totalStreams.innerHTML = '';
 		    	errorHtml = '<p class="error">'+data.message+', please enter a valid stream.</p>';
@@ -183,6 +204,7 @@ var sonyWebApp = (function () {
 		    }
 		    
 	};
+
 	return {
 		handleStream: _handleStream,
 		init: _initialize
