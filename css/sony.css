@@ -24,8 +24,6 @@ body {
 	font-size: 20px;
 }
 
-
-
 #sony #total-streams {
 	font-size: 14px;
 	padding-bottom: 20px;
@@ -42,7 +40,6 @@ body {
 	position: relative;
 	margin-left: 8px;
 }
-
 
 #sony .btn:hover {
 	
@@ -75,12 +72,9 @@ body {
 	padding-left: 20px;
 }
 
-
 #sony #search-form {
 	border: 1px solid #ccc;
 	padding: 30px 20px;
-	
-
 }
 
 #sony input[type="text"] {
@@ -96,14 +90,6 @@ body {
     border-top:0;
     display: none;
 }
-#sony .overlay {
-	position: absolute;
-	background: #ccc;
-	height: 100%;
-	width: 100%;
-	display: none;
-
-}
 
 #sony .top:after {
 	clear: both;
@@ -114,15 +100,7 @@ body {
 #sony .right {
 	float:right;
 }
-#sony #anotherWrap {
-	//display: none;
-}
-#sony .overlay span {
-	top:50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	position: absolute;
-}
+
 #sony #nav-links {
 	margin:0;
 }

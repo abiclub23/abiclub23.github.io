@@ -2,13 +2,11 @@ document.addEventListener('DOMContentLoaded',function(){
 	
 	sonyWebApp.init();
 
-
 });
 
 var sonyWebApp = (function () {
 	
 	var	userVal,
-		offVal = 0,
 		currPage = 1,
 		sectionDynaScript,
 		pages,
@@ -21,11 +19,13 @@ var sonyWebApp = (function () {
 		elemPrev,
 		elemBtn,
 		elemInput,
+		elemNavs,
 		streamSelfURL;
 
 	var _initialize = function(){
 		elemBtn = document.getElementById('s-btn'),
 	    elemInput = document.getElementById('search-input'),
+	    elemNavs = document.getElementById('navs'),
 		elemNext = document.getElementById('next'),
 		elemPrev = document.getElementById('prev'),
 		sectionDynaScript = document.getElementById('dyna-scripts'),
@@ -90,11 +90,12 @@ var sonyWebApp = (function () {
 
 	var _apiCall = function(url){
 		
-		console.log(url);
 		if(url){
 			var script = document.createElement('script');
 			script.src = url;
+			script.type = "text/javascript";
 			sectionDynaScript.appendChild(script);
+			
 		}
 	};
 
@@ -169,13 +170,15 @@ var sonyWebApp = (function () {
 		    	totalStreams.innerHTML = "Total results: " + streamTotal;
 		    	pageIndex.innerHTML = currPage+"/"+pages;
 		    	sectionDynaScript.innerHTML = '';
-		    	_show(elemNext);
+		    	_show(elemNavs);
 		    	_fadeIn(resultsHtml,1000);
 
 		    }else{
 		    	
-		    	_hide(elemNext);
-		    	errorHtml = '<p class="error">'+data.message+', please enter a valid stream.</p>'
+		    	//_hide(elemNext);
+		    	_hide(elemNavs);
+		    	totalStreams.innerHTML = '';
+		    	errorHtml = '<p class="error">'+data.message+', please enter a valid stream.</p>';
 		    	resultsHtml.innerHTML = errorHtml;
 		    }
 		    
