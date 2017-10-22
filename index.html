@@ -1,40 +1,347 @@
-
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<!--
+ "I guess it will all make sense when we grow up" - Calvin & Hobbes
+
+  Like my site and want to share some feedback ? contact me at atondepu@gmail.com
+-->
 <head>
-	<title>Sony Interview - Twitch Stream</title>
-	
-	<script type="text/javascript" src="js/sony.js"></script>
-	
-	<link rel="stylesheet" type="text/css" href="css/sony.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta NAME="description" CONTENT="Abhi Tondepu - Online Portfolio / Resume .Explore my site.">
+    <meta name="Keywords" CONTENT="abhi , abhinash , tondepu , portfolio, online resume, front end developer, front end engineer, UI developer" />
+
+    <title>Abhi Tondepu</title>
+    <link href='http://fonts.googleapis.com/css?family=Monofett' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kranky' rel='stylesheet' type='text/css'>
+    <link rel="icon" type="image/x-icon"  href="images/favicon.ico">
+    <link rel="stylesheet" media="all" href="styles/portfolio.css" type="text/css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="all" href="styles/animations.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="styles/media.css">
+    <script src="script/jquery-1.11.2.min.js" type="text/javascript" ></script>
+    <script src="script/jquery.donutchart.js" type="text/javascript" ></script>
+    <script src="script/portfolio.js" type="text/javascript" ></script>
+    
 </head>
+
 <body>
-<section id="dyna-scripts"></section>
-<section id="sonyWebApp">
-	<h1> TWITCH.TV SEARCH STREAM </h1>
-	<form id="search-form">
-		
-		<input type="text" id="search-input" name="search-input" placeholder="Search query" value="">
-		<a href="javascript:void(0);" class="btn" id="s-btn">Search</a>
-	</form>
-	<section id="response-container">
-	
-		<div class="top clear-both">
-			<div id="total-streams" class="left"></div>
-			<div id="navs" class="right">
-				<ul id="nav-links" class="clear-both">
-					<li id="prev"><a href="javascript:void(0);"></a></li>
-					<li id="page-index"></li>
-					<li id="next"><a href="javascript:void(0);"></a></li>
-				</ul>
-			</div>	
-		</div>
-		
-		<div id="results"></div>
-		
-	</section>
-	
+    
+   <body>
+  <div id="preloader" class="desktop-only">
+         
+        <div id="myobj" style="position:relative; margin:0 auto; height:500px; width:500px; ">
+
+
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+
+                <path id="i0" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M12.477999687194824,279.5L12.477999687194824,216.16799926757812L3,216.16799926757812L3,287.8500061035156L74.68199920654297,287.8500061035156L74.68199920654297,279Z" />
+                <path id="i1" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M94,216.16799926757812L165.5,216.16799926757812L165.5,287.8500061035156L94,287.8500061035156L94,216.16799926757812Z" />
+                <path id="i2" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M102.5,224.5L157,224.5L157,279L102.5,279L102.5,224.5Z" />
+                <path id="i3" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M188.5,287.8500061035156L218.5,216.16799926757812L229.5,216.16799926757812L260,287.8500061035156L251,287.8500061035156L224.25,226.5L196.5,287.8500061035156Z" />
+                <path id="i4" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M278.5,215.16799926757812l0,71.6820068359375L278.5,215.16799926757812Z" />
+                <path id="i5" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M349.5,251.00900268554688L278.5,286.8500061035156L278.5,215.16799926757812Z" />
+                <path id="i6" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M287,274L332,250.75L287,228Z" />
+                <path id="i7" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M440.5,217l0,72L440.5,217Z" />
+                <path id="i8" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M502.5,279.5L502.5,217L512,217L512,289L501.7829895019531,278.7130126953125L440.5,217" />
+                <path id="i9" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M440.5,289L449.5,289L449.5,226.5" />
+                <path id="i10" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M357.6820068359375,216L422,216L422,225.5L393,225.5L393,279L422,279L422,288L357.6820068359375,288L357.6820068359375,279.5L384.5,279L384.5,225.5L357.6820068359375,225.5Z" />
+                <path id="i11" fill="none" stroke="#45d4ff" stroke-miterlimit="10" d="M603.5,215.50900268554688L532,215.50900268554688L532,288.5090026855469L586,288.5090026855469L586,269.5090026855469L594.5,269.5090026855469L594.5,288.5090026855469L603.5,288.5090026855469L603.5,259.5090026855469L577,259.5090026855469L577,277.5090026855469L540,277.5090026855469L540,225.00900268554688L603.5,225.00900268554688Z" />
+
+
+            </svg>
+
+
+        </div>
+        <div class="floater" id="floater"></div>
+    </div>
+    <!-- script for svg animation -->
+    <script type="text/javascript">
+   
+    (function () {
+            
+            if ($(window).width() > 1024) {
+
+            $('html, body').css({
+                'overflow': 'hidden',
+                'height': '100%'
+            });
+        }
+            var current_frame, total_frames, path, length, handle, myobj;
+
+            myobj = document.getElementById('myobj').cloneNode(true);
+
+            var init = function() {
+                current_frame = 0;
+                total_frames = 120;
+                path = new Array();
+                length = new Array();
+                for (var i = 0; i < 12; i++) {
+                    path[i] = document.getElementById('i' + i);
+                    l = path[i].getTotalLength();
+                    length[i] = l;
+                    path[i].style.strokeDasharray = l + ' ' + l;
+                    path[i].style.strokeDashoffset = l;
+                }
+                handle = 0;
+            }
+
+
+            var draw = function() {
+                var progress = current_frame / total_frames;
+                if (progress > 1) {
+                    window.cancelAnimationFrame(handle);
+                   setTimeout(function() {
+                        rerun();
+                    }, 1000);
+
+                } else {
+                    current_frame++;
+                    for (var j = 0; j < path.length; j++) {
+                        path[j].style.strokeDashoffset = Math.floor(length[j] * (1 - progress));
+                    }
+                    handle = window.requestAnimationFrame(draw);
+                }
+            };
+
+            init();
+            draw();
+
+            var rerun = function() {
+                var old = document.getElementById('myobj');
+                if (old) {
+                    old.parentNode.removeChild(old);
+                //document.getElementById('floater').insertBefore(myobj);
+                $(".floater").before(myobj);
+                init();
+                draw();
+                }
+                
+            };
+    })();
+   
+    </script> 
+    <section class="main-bg" id="landing">
+        <!--<a href="https://github.com/abiclub23/Labs/tree/master/Southpark"><img style="position: absolute; top: 0; left: 0; border: 0; width: 149px; height: 149px;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/left-graphite@2x.png" alt="Fork me on GitHub"></a>-->
+        <div id="heading-title">
+            <h1> Hello, I am <span class="title">Abhi Tondepu</span> </h1>
+
+            <div class="underline"></div>
+            <div class="media-only"> Engineer / Designer / Developer</div>
+            <ul class="title-ticker">
+                <li> Software <span class="tcolor">Engineer<span> </li>
+                <li>  UI <span class="tcolor">Dev / Designer<span> </li>
+              </ul>
+        </div>
+        <a title="Scroll Down" class="arrow-down" href="#navigation" ><i class="fa fa-hand-o-down fa-2x"></i></a>
+        
+  
+
+
 </section>
+<section class="navigation " id="navigation"  >
+
+  <div role="navigation" class="navbar ">
+      <ul class="nav navbar-nav ">
+        <li class="home-li"><a  href="#landing"><i class="fa fa-home fa-2x"></i><span  class="link-text">HOME</span></a></li>
+        <li class="about-li"><a  href="#about" ><i class="fa fa-user fa-2x"></i><span  class="link-text">ABOUT</span> </a>
+                </li>
+                <li class="skills-li"><a href="#myskills"><i class="fa fa-pie-chart fa-2x"></i><span class="link-text">SKILLS</span></a>
+                </li>
+                <li class="port-li"><a href="#portfolio"><i class="fa fa-rocket fa-2x"></i><span class="link-text">PORTFOLIO</span></a>
+                </li>
+                <li class="edu-li"><a href="#education"><i class="fa fa-graduation-cap fa-2x"></i><span class="link-text">EDUCATION</span></a>
+                </li>
+                <li class="cont-li desktop-only"><a href="#contact"><i class="fa fa-paper-plane fa-2x"></i> <span  class="link-text">CONTACT</span></a>
+                </li>
+                <!--<li><span class="konami-code desktop-only" style="padding-left:150px;">Type Konami code to see magic.</span> 
+                </li>-->
+            </ul>
+        </div>
+
+    </section>
+
+    <section id="about" class="bg-profile">
+
+        <div class="container ">
+            <!-- Header Starts -->
+            <h3 class="section-title"><i class="fa fa-user fa-2x"></i>ABOUT</h3>
+
+            <div class="row">
+                <div class="col ">
+                    <p> I'm a engineer at heart , but I get zealous about art and design.I started working on web projects for fun, soon I was doing it full time and 5 years on I'm still loving it.</p>
+                    <p> I have a passion for clean, elegant styling. I enjoy creating clean websites and interfaces with latest web technologies.I'm excited about all things digital.</p>
+                    <p class="desktop-only"> Offline I listen to music , play soccer , travel and enjoy cooking.</p>
+                    <p>Thank you for visiting my site.If you have any questions, feedback, or just want to say hello, you can contact me at <a href="mailto:atondepu@gmail.com" style="text-decoration:underline;"> atondepu@gmail.com</a>. You can also connect with me on Linkedin.</p>
+                    <div class="contact-btns">
+                        <a target="_blank" class="resume" href="documents/AbhinashT_resume.docx"> <i class="fa fa-download"></i> RESUME </a>
+                        <a href="https://www.linkedin.com/in/atondepu"><i class="fa fa-linkedin-square fa-2x"></i> </a>
+                        <a href="https://github.com/abiclub23/Labs"><i class="fa fa-github fa-2x"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clear-both"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id="curveUpColor">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+    </svg>
+
+    <section id="myskills">
+        <div class="container">
+            <h3 class="section-title"><i class="fa fa-pie-chart fa-2x"></i>SKILLS</h3>
+
+            <div class="row donuts">
+                <div id="donutchart1" class="dchart" data-text="HTML" data-percent="95"><span></span>
+                </div>
+                <div id="donutchart2" class="dchart" data-text="CSS" data-percent="85"></div>
+                <div id="donutchart3" class="dchart" data-text="Js/JQuery" data-percent="75"></div>
+                <div id="donutchart4" class="dchart" data-text="Accessibility" data-percent="85"></div>
+                <div id="donutchart5" class="dchart" data-text="Responsive Web" data-percent="40"></div>
+                <div id="donutchart6" class="dchart" data-text="Design" data-percent="35"></div>
+            </div>
+        </div>
+    </section>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id="curveDownColor">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+    </svg>
+
+    <section id="portfolio">
+        <div class="container ">
+            <!-- Header Starts -->
+
+            <h3 class="section-title"><i class="fa fa-rocket fa-2x"></i>Portfolio / Labs </h3>
+            <p> Here is a selection of work I've done. Explore </p>
+            <div class="row">
+
+                <div class="column" id="col1">
+                    <article class="">
+                        <figure>
+                            <img alt="BOA Screenshot" src="images/boa-25.png" class="opaque" height="172">
+                        </figure>
+                        <div class="summary">
+                            <a href="https://www.bankofamerica.com/"><i class="fa fa-external-link"></i><h3>Bank of America </h3></a>
+                            <p>Worked on several online banking and high visiblity product pages.</p>
+
+
+                        </div>
+                    </article>
+                </div>
+                <div class="column" id="col2">
+                    <article>
+                        <figure>
+                            <img alt="IBM Screenshot" src="images/ibm-25.png" height="172" width="250">
+                        </figure>
+                        <div class="summary">
+                            <a href="https://www.ibm.com/"><i class="fa fa-external-link"></i><h3>IBM </h3></a>
+                            <p>Worked on cross selling sales tools and metrics dashboard UI.</p>
+
+                        </div>
+                    </article>
+                </div>
+             
+
+                <div class="column ptop-25" id="col4">
+                    <article style="" class="">
+                        <figure>
+                            <img alt="Breaking Bad" src="images/breakbad.png" height="172" width="250">
+                        </figure>
+                        <div class="summary">
+                            <a href="http://abhiton.com/BreakingBadFont/index.html"><i class="fa fa-external-link"></i><h3>How bad are you ?</h3></a>
+                            <p>Type in you name and break bad.</p>
+
+                        </div>
+                    </article>
+                </div>
+
+                <div class="column ptop-25" id="col5">
+                    <article style="" class="">
+                        <figure>
+                            <img alt="Southpark Css3" src="images/southpark-25.png" height="172" width="250">
+                        </figure>
+                        <div class="summary">
+                            <a href="http://abhiton.com/Southpark/southpark.html"><i class="fa fa-external-link"></i><h3>SouthPark CSS3</h3></a>
+                            <p>Fun expirment to recrate Southpark with only CSS3. Check it out !!</p>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id="curveUpColor">
+        <path d="M0 100 C 20 0 50 0 100 100 Z" />
+    </svg>
+
+    <section id="education">
+        <div class="container timeline ">
+            <!-- Header Starts -->
+
+            <h3 class="section-title"><i class="fa fa-bank fa-2x"></i>EDUCATION</h3>
+            <div class="timeline-block">
+                <div class="timeline-img ">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <!-- timeline-img -->
+
+                <div class="timeline-content">
+                    <h3 class="tcolor">Master Of Science</h3>
+                    <p>Information Systems and Operations Management - <a href="https://www.ufl.edu">University of Florida</a> </p>
+                    <span> Dec 2008</span>
+                </div>
+                <!-- timeline-content -->
+            </div>
+            <!-- timeline-block -->
+
+            <div class="timeline-block">
+                <div class="timeline-img1 ">
+                    <i class="fa fa-graduation-cap"></i>
+                </div>
+                <!-- timeline-img -->
+
+                <div class="timeline-content">
+                    <h3 class="tcolor">Bachelor of Engineering</h3>
+                    <p>Computer Science -<a href="https://www.annauniv.edu"> Anna University</a> </p>
+                    <span> May 2007</span>
+                </div>
+                <!-- timeline-content -->
+            </div>
+            <!-- timeline-block -->
+            <div class="contact-btns">
+                <a target="_blank" class="resume" href="documents/AbhinashT_resume.docx">
+                    <i class="fa fa-download"></i> RESUME
+                </a>
+                <a href="https://www.linkedin.com/in/atondepu"><i class="fa fa-linkedin-square fa-2x"></i> </a>
+             <a href="https://github.com/abiclub23/Labs"><i class="fa fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <svg preserveAspectRatio="none" viewBox="0 0 100 100" height="100" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" id="curveDownColor">
+        <path d="M0 0 C 50 100 80 100 100 0 Z" />
+    </svg>
+
+    <a href="#landing" title="Scoll top" class="arrow-up"><i class="fa fa-hand-o-up fa-2x"></i></a>
+    <footer id="contact">
+    
+      <span> © 2015. Abhinash Tondepu</span>
+      <a href="https://www.linkedin.com/in/atondepu"><i class="fa fa-linkedin-square"></i> </a>
+      <a href="https://github.com/abiclub23/Labs"><i class="fa fa-github"></i></a> |
+      <span> atondepu@gmail.com</span> <a href="mailto:atondepu@gmail.com"><i class="fa fa-envelope">  </i> </a>|
+      <span> 352-870-2079</span><i class="fa fa-phone-square"></i>       
+      <span class="konami-code desktop-only">Type Konami code to see magic.</span>
+        
+    </footer>
 
 </body>
+</body>
+
 </html>

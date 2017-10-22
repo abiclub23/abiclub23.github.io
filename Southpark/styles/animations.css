@@ -1,0 +1,166 @@
+/* ALL animations go here */
+/* ------------------------------- Bus stop and Title signs ---------- */
+
+#scenery .busstop-sign {
+    opacity: 0;
+    
+    -webkit-animation: spsign 0.1s;
+    
+            animation: spsign 0.1s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    
+}
+#scenery .sp-sign {
+    -webkit-perspective: 1000px;
+            perspective: 1000px;
+    z-index: 10;
+    opacity: 0;
+   
+    -webkit-animation: spsign 0.1s;
+   
+            animation: spsign 0.1s;
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    
+}
+@keyframes spsign {
+    0% {
+        opacity: 1;
+        top: 200px;
+    }
+    100% {
+        opacity: 1;
+        top: 55%;
+    }
+}
+@-webkit-keyframes spsign {
+    0% {
+        opacity: 1;
+        top: 120px;
+    }
+    100% {
+        opacity: 1;
+        top: 55%;
+    }
+}
+/* ------------------------------- Blinking ---------- */
+
+.head .left-eye .eyelid-top, .head .right-eye .eyelid-top {
+    
+    -webkit-animation-name: eyelidtop;
+    
+            animation-name: eyelidtop;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+.head .left-eye .eyelid-bottom, .head .right-eye .eyelid-bottom {
+    
+    -webkit-animation-name: eyelidbottom;
+    
+            animation-name: eyelidbottom;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+@-webkit-keyframes eyelidtop {
+    0% {
+        top: -21px;
+    }
+    2% {
+        top: 0px;
+    }
+    4% {
+        top: -21px;
+    }
+    100% {
+        top: -21px;
+    }
+}
+@keyframes eyelidtop {
+    0% {
+        top: -21px;
+    }
+    2% {
+        top: 0px;
+    }
+    4% {
+        top: -21px;
+    }
+    100% {
+        top: -21px;
+    }
+}
+@-webkit-keyframes eyelidbottom {
+    0% {
+        bottom: -11px;
+    }
+    2% {
+        bottom: 0px;
+    }
+    4% {
+        bottom: -11px;
+    }
+    100% {
+        bottom: -11px;
+    }
+}
+@keyframes eyelidbottom {
+    0% {
+        bottom: -11px;
+    }
+    2% {
+        bottom: 0px;
+    }
+    4% {
+        bottom: -11px;
+    }
+    100% {
+        bottom: -11px;
+    }
+}
+
+#kyre .eyelid-top, #kyre .eyelid-top, #kyre .eyelid-bottom, #kyre .eyelid-bottom {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+/* -------------------------------Cartman ---------- */
+
+
+#cartman .eyelid-top, #cartman .eyelid-top, #cartman .eyelid-bottom, #cartman .eyelid-bottom {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+/* ------------------------------- Stan ---------- */
+
+
+#stan .eyelid-top, #stan .eyelid-top, #stan .eyelid-bottom, #stan .eyelid-bottom {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+/* ------------------------------- Kenny ---------- */
+
+
+#kenny .eyelid-top, #kenny .eyelid-top, #kenny .eyelid-bottom, #kenny .eyelid-bottom {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}

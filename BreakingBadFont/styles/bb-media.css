@@ -1,0 +1,326 @@
+/* media queries*/
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-size: 125% 100%;
+        
+    }
+    .titanic {
+        display: none;
+    }
+    section { padding: 0 10px; }
+    section .input-group {
+        display: block;
+    }
+    /*.main .btn-ptop {
+        padding-top: 25px;
+    }*/
+    .input-group.custom-input {
+        padding-top: 42px;
+        padding-left: 0px;
+    }
+    .input-group-lg > .form-control {
+        font-size: 14px;
+        height: 30px;
+        padding: 6px 12px;
+        width: 65%;
+    }
+    #submit.btn {
+        padding: 7px 20px;
+        margin-top: 20px;
+    }
+    .alert.custom, p.bg-success {
+        font-size: 15px;
+        padding: 5px 0px 5px 35px;
+    }
+    .alert.custom, p.bg-success {
+        background: url('../images/crop.png') no-repeat scroll 5px 0px / 70px 65px #F2DEDE;
+    }
+    p.bg-success {
+        background: url('../images/jp1.png') no-repeat scroll 2px 0px / 40px 65px #F2DEDE;
+    }
+    #result span {
+        font-size: 30px;
+        text-align: left;
+        word-wrap: break-word;
+    }
+    #result span.font {
+        font-size: 35px;
+        padding: 5px 10px;
+    }
+   /* #result span.wrap {
+        display: block;
+    }*/
+    #result span.wrap:last-child {
+        padding-top: 15px;
+        padding-left: 40px;
+    }
+    #result {
+        margin-top: 50px;
+        width: 95%;
+    }
+    .about { padding: 2px 4px; }
+    span.atomic { bottom:1px; }
+    span.molar { top:0; }
+    #result span.wrap:last-child .molar {         top:10px;    }
+    .tooltip-inner { font-size: 10px;}
+    .popover { font-size: 11px;}
+}
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 480px)  {
+    /* Styles */
+    
+    h2 {
+        margin-bottom: 40%;
+        font-size: 35px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15%;
+        visibility: hidden;
+    }
+    
+    .input-group-lg > .form-control {
+        margin-left: 17%;
+    }
+    .alert.custom, p.bg-success {
+        width: 95%;
+        font-size: 12px;
+    }
+    .alert.custom {
+        /* margin: 40px auto 0; */
+        
+        background-size: 45px 53px;
+    }
+    p.bg-success {
+        /* margin: 40px auto 0;*/
+        
+        background-size: 35px 67px;
+    }
+    *.main .btn-ptop {
+        margin-left:0;
+    }
+    .btn-lg {
+        font-size: 14px;
+    }
+}
+
+
+
+/* iPhone 4 (landscape) ----------- (320*480) in landscape mode = (480*320)*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+    /* Styles */
+    
+    body {
+        background-size: 120% 100%;
+    }
+    h2 {
+        margin-bottom: 7%;
+    }
+    .input-group-lg > .form-control {
+        width: 42%;
+        margin-left: 33%;
+    }
+    .main .btn-ptop {
+        margin-left: 7%;
+    }
+    .alert.custom, p.bg-success {
+        margin: 20px auto 14px 70px;
+        width: 75%;
+    }
+    .alert.custom {
+        background-size: 45px 53px;
+    }
+    p.bg-success {
+        background-size: 35px 67px;
+    }
+    #result {
+        padding-left: 20%;
+    }
+}
+/* iPhone 4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 480px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+    /* Styles */
+    h2 { margin-bottom: 40% !important; }   /* adding important for overriding iphone 5 style */
+    
+}
+
+/* iPhone 4 (landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+
+ h2 {  margin-bottom: 6% !important;   }
+}
+
+/* iPhone 5 (landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+ h2 { visibility: hidden; margin-bottom: 0; }
+ body {  background-size: 112% 100%;}
+ .input-group-lg > .form-control {
+        width: 50%;
+        margin-left: 25%;
+    }
+ #result {padding-left: 20%;}
+     .alert.custom, p.bg-success {
+      margin: 0px auto 14px 90px;
+      width: 65%;
+    }
+    .alert.custom {
+        background-size: 45px 53px;
+    }
+    p.bg-success {
+        background-size: 35px 67px;
+    }
+
+}
+
+/* iPhone 5 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+
+    h2 { margin-bottom: 55%; }  
+}
+
+
+/* iPhone 6 (portrait) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+     h2 { margin-bottom: 57%; }
+     #result {padding-left: 20%;}
+     #result span.font {  font-size: 42px; }
+     .popover { font-size: 14px;}
+     .input-group-lg > .form-control {
+        margin-left: 20%;
+    }
+}
+
+
+/* iPhone 6 (landscape) ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+     h2 { margin-bottom: 1%; }
+    #result {padding-left: 20%;}
+     #result span.font {  font-size: 48px; }
+     .popover { font-size: 14px;}
+}
+
+
+/* iPhone 6+ (portrait) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+    .input-group-lg > .form-control { margin-left: 20%;height: 35px; }
+    h2 { margin-bottom: 57%; }
+    .about {   padding: 6px 12px; }
+    #submit.btn {   padding: 10px 40px;}
+    #result {padding-left: 20%;}
+    #result span.font {  font-size: 48px; }
+    #result span {   font-size: 40px;}
+    .popover { font-size: 15px;}
+}
+
+
+/* iPhone 6+ (landscape) ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+    body {  background-size: 112% 100%;}
+    h2 { visibility: hidden; margin-bottom: 4%; }
+    .about {   padding: 6px 12px; }
+    .input-group-lg > .form-control { margin-left: 30%;height: 35px; width:45%;}
+    #submit.btn {   padding: 10px 40px;}
+    #result {padding-left: 20%;}
+    #result span.font {  font-size: 50px; }
+    #result span {   font-size: 42px;}
+    .popover { font-size: 15px;}
+}
+
+/* Samsung Galaxy S3 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+/* Styles */
+ h2 {
+        margin-bottom: 55%;
+        
+    }
+    
+    .input-group-lg > .form-control {
+        margin-left: 17%;
+    }
+   
+    
+}
+
+
+/* Samsung Galaxy S4 (portrait) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+    h2 {
+        margin-bottom: 55%;
+        
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+body {
+        background-size: 110% 100%;
+    }
+    .form-group {
+        padding-top: ;
+    }
+    .btn-lg {
+        padding: 10px 80px;
+    }
+    h2 {
+        width: 45%;
+        margin-left: 31%;
+        margin-bottom: 25%;
+    }
+    .input-group.custom-input {
+        padding-left: 20px;
+        padding-top: 0;
+    }
+    .input-group-lg > .form-control {
+        margin-left: 10%;
+    }
+    .alert.custom, p.bg-success {
+        font-size: 18px;
+        margin: 40px auto 15px 195px;
+        padding: 10px 0px 10px 50px;
+        width: 66%;
+    }
+    .alert.custom {
+        background-size: 50px 55px;
+    }
+    p.bg-success {
+        background-size: 45px 45px;
+    }
+    .about {   padding: 6px 12px; }
+    .input-group-lg > .form-control { height: 35px; width:45%;}
+    #result {padding-left: 27%;}
+    #result span.font {  font-size: 65px; }
+    #result span {   font-size: 55px;}
+    span.molar {   top: 5px; }
+    #result span.wrap:last-child .molar {   top: 15px; }
+    .popover { font-size: 15px;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+    h2 {
+      width: 60%;
+      margin-left: 21%;
+      margin-bottom: 45%;
+    }
+    .alert.custom, p.bg-success {       margin: 40px auto 15px 150px; }
+    .alert.custom{   background-position:6px 6px ;}
+    p.bg-success {   background-position:6px 1px ;  background-size: 35px 45px;}
+   
+       
+    
+}
+
+
+

@@ -1,0 +1,340 @@
+/*cartman styles */
+
+#cartman *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#cartman  {
+   position: absolute;
+}
+
+#cartman .head {
+    z-index: 3;
+}
+
+#cartman .head-main
+{
+     background-color:#FDD6AC;
+    border-radius: 50%;
+    height: 75px;
+    left: 2px;
+    top: 15px;
+    width: 130px;
+     z-index: 1;
+
+}
+#cartman .head-main-2
+{
+       background-color: #01bbca;
+    border: 1px solid #4dc2ad;
+    border-radius: 50%;
+    height: 102px;
+    left: 1px;
+    top: -15px;
+    width: 129px;
+
+}
+
+#cartman .head-main-3
+{
+     background-color: #fce41d;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 70px;
+    left: 0;
+    top: 10px;
+    width: 132px;
+
+}
+
+
+
+#myCanvas { z-index: 10;}
+
+
+    
+#cartman .head .left-eye
+{
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 30px;
+    left: 40px;
+    overflow: hidden;
+    top: 20px;
+    width: 25px;
+    z-index: 2;
+}
+
+#cartman .head .left-eye .left-pupil
+{ background: none repeat scroll 0 0 #110b00;
+    border-radius: 50%;
+    height: 4px;
+    left: 15px;
+    top: 13px;
+    width: 4px;
+}
+
+ 
+#cartman .head .right-eye
+{
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 31px;
+    left: 65px;
+    overflow: hidden;
+    top: 20px;
+    width: 25px;
+     z-index: 2;
+}
+
+#cartman .head .right-eye .right-pupil
+{ background: none repeat scroll 0 0 #110b00;
+    border-radius: 50%;
+    height: 4px;
+    left: 8px;
+    top: 13px;
+    width: 4px;
+}
+
+
+#cartman .mouth {
+      border-color: #333 transparent transparent;
+    border-style: solid;
+    border-radius: 35%;
+    border-width: 13px 20px 0;
+    height: 0;
+    left: 50px;
+    top: 60px;
+    width: 0;
+     z-index: 2;
+}
+#cartman .head .tooth-1 {
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    height: 3px;
+    left: -10px;
+    top: -13px;
+    width: 4px;
+}
+#cartman .head .tooth-2 {
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    height: 3px;
+    left: -3px;
+    top: -13px;
+    width: 4px;
+}
+#cartman .head .tooth-3 {
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    height: 3px;
+    left: 4px;
+    top: -13px;
+    width: 4px;
+}
+
+#cartman .head .hair {
+    background: none repeat scroll 0 0 #FFDE1C;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+#cartman .head .hair1 {
+  height: 8px;
+    left: 50px;
+    top: -18px;
+    width: 32px;
+}
+#cartman .head .hair2 {
+    height: 6px;
+    left: 48px;
+    top: -15px;
+    transform: rotate(121deg);
+    width: 11px;
+}
+
+#cartman .head .hair3 {
+    height: 6px;
+    left: 53px;
+    top: -15px;
+    transform: rotate(121deg);
+    width: 11px;
+}
+#cartman .head .hair4 {
+    height: 6px;
+    left: 58px;
+    top: -15px;
+    transform: rotate(121deg);
+    width: 11px;
+}
+#cartman .head .hair5 {
+    height: 6px;
+    left: 63px;
+    top: -15px;
+    transform: rotate(180deg);
+    width: 11px;
+}
+#cartman .head .hair6 {
+    height: 6px;
+    left: 68px;
+    top: -15px;
+    transform: rotate(121deg);
+    width: 11px;
+}
+#cartman .head .hair7 {
+    height: 6px;
+    left: 72px;
+    top: -15px;
+    transform: rotate(221deg);
+    width: 11px;
+}
+
+#cartman .body .body-top {
+     background-color: #bd0230;
+    border-radius: 45%;
+    height: 90px;
+    left: -24px;
+    top: 45px;
+    width: 180px;
+    border: 1px solid #333;
+    z-index: 2;
+}
+
+#cartman .body .left-palm {
+    background: none repeat scroll 0 0 #ffde1c;
+    border-radius: 50%;
+    height: 25px;
+    left: -32px;
+    top: 78px;
+    width: 28px;
+    z-index: 2;
+
+}
+
+#cartman .body .left-thumb {
+    background: none repeat scroll 0 0 #ffde1c;
+    border-radius: 50%;
+    height: 7px;
+    left: -9px;
+    top: 81px;
+    width: 7px;
+    z-index: 2;
+    border: 1px solid #333;
+
+}
+
+#cartman .body .right-palm {
+    background: none repeat scroll 0 0 #ffde1c;
+    border-radius: 50%;
+    height: 25px;
+    left: 135px;
+    top: 78px;
+    width: 28px;
+    z-index: 2;
+
+}
+
+#cartman .body .right-thumb {
+    background: none repeat scroll 0 0 #ffde1c;
+    border-radius: 50%;
+    height: 7px;
+    left: 132px;
+    top: 81px;
+    width: 7px;
+    z-index: 2;
+    border: 1px solid #333;
+
+}
+
+#cartman .body .button{ z-index: 2; }
+#cartman .body .button .button-1 {
+    background: none repeat scroll 0 0 #333;
+    border-radius: 50%;
+    height: 6px;
+    left: 62px;
+    top: 95px;
+    width: 3px;
+    
+    
+}
+
+#cartman .body .button .button-2 {
+    background: none repeat scroll 0 0 #333;
+    border-radius: 50%;
+    height: 6px;
+    left: 62px;
+    top: 108px;
+    width: 3px;
+    
+}
+
+#cartman .body .button .button-3 {
+    background: none repeat scroll 0 0 #333;
+    border-radius: 50%;
+    height: 6px;
+    left: 62px;
+    top: 120px;
+    width: 3px;
+
+    
+}
+
+#cartman .body .button .shirt {
+    background: none repeat scroll 0 0 #333;
+    height: 49px;
+    left: 67px;
+    top: 90px;
+    width: 1.5px;
+    
+}
+
+#cartman .body .flab {
+   
+     border-radius: 50%;
+    box-shadow: -1px 15px 0 0 #bd0230;
+    height: 80px;
+    left: 12px;
+    top: 45px;
+    
+    width: 138px;
+   
+}
+
+#cartman .trap { 
+ border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 35px solid #62240d;
+    height: 53px;
+    left: -12px;
+    top: 115px;
+    width: 110px;
+    z-index: 1;
+    }
+
+
+
+
+#cartman .left-foot {
+    background-color: #000;
+    border-radius: 50%;
+    height: 6px;
+    left: 6px;
+    top: 147px;
+    width: 65px;
+}
+
+#cartman .right-foot {
+    background-color: #000;
+    border-radius: 50%;
+    height: 6px;
+    left: 65px;
+    top: 147px;
+    width: 65px;
+}
+
+

@@ -1,0 +1,344 @@
+
+
+#kenny *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+
+#kenny {
+    left: 55px;
+    position: absolute;
+    top: -8px;
+}
+
+#kenny .head-main
+{
+    background-color: #FDD6AC;
+    border-radius: 0 0 90px 90px;
+    height: 67px;
+    left: -11px;
+    top: 37px;
+    width: 110px;
+    z-index: 2;
+}
+#kenny .beanie
+{
+    background-color: #623919;
+    
+    border-radius: 50%;
+    height: 65px;
+    left: 3px;
+    top: 25px;
+    
+    width: 84px;
+    z-index: 3;
+}
+
+#kenny .beanie-stripe
+{
+    background-color: #fdd6ac;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 47px;
+    left: 11px;
+    top: 35px;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    width: 65px;
+    z-index: 6;
+}
+
+#kenny .beanie-inner {
+    border-radius: 50%;
+    box-shadow: 0 11px 0 0 #eb5a0d;
+    height: 90px;
+    left: 3px;
+    top: 1px;
+    width: 83px;
+    z-index: 5;
+
+}
+
+
+
+#kenny .beanie-inner-border{
+
+border: 1px solid #333;
+    border-radius: 50%;
+    height: 75px;
+    left: 2px;
+    top: 25px;
+    width: 83px;
+    z-index: 5;
+
+}
+
+#kenny .beanie-outer {
+
+    background-color: #eb5a0d;
+    border-radius: 50%;
+    height: 122px;
+    left: -10px;
+    top: -4px;
+    width: 110px;
+    z-index: 2;
+   }
+
+
+#kenny .beanie-thread-1 { 
+
+        border-left: 1px solid #333;
+    height: 21px;
+    left: 41px;
+    top: 92px;
+    transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    width: 2px;
+    z-index: 10;
+
+}
+
+#kenny .beanie-thread-2 { 
+
+        border-left: 1px solid #333;
+     border-left: 1px solid #333;
+    height: 26px;
+    left: 49px;
+    top: 91px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    width: 2px;
+    z-index: 10;
+
+}
+    
+#kenny .head .left-eye
+{
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 28px;
+    left: 19px;
+    overflow: hidden;
+    top: 45px;
+    width: 25px;
+    z-index: 7;}
+
+#kenny .head .left-eye .left-pupil
+{ background: none repeat scroll 0 0 #110b00;
+    border-radius: 50%;
+    height: 4px;
+    left: 15px;
+    top: 13px;
+    width: 4px;
+}
+
+
+
+#kenny .head .right-eye
+{
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 29px;
+    left: 44px;
+    overflow: hidden;
+    top: 45px;
+    width: 25px;
+    z-index: 7;
+}
+
+#kenny .head .right-eye .right-pupil
+{ background: none repeat scroll 0 0 #110b00;
+    border-radius: 50%;
+    height: 4px;
+    left: 8px;
+    top: 13px;
+    width: 4px;
+}
+
+#kenny .mouth {
+   border-bottom: 1px solid #110b00;
+    border-radius: 50%;
+    height: 2px;
+    left: 35px;
+    top: 87px;
+    width: 18px;
+    z-index: 2;
+}
+
+
+
+#kenny .body .collar-1 { 
+
+   background-color: #41A233;
+    border-radius: 20px;
+    height: 6px;
+    left: 5px;
+    top: 97px;
+    transform: rotate(25deg);
+     -ms-transform: rotate(25deg);
+    width: 42px;
+    z-index: 1;
+
+}
+
+#kenny .body .collar-2 { 
+background-color: #41A233;
+    border-radius: 20px;
+    height: 6px;
+    left: 44px;
+    top: 96px;
+    transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    width: 43px;
+    z-index: 1;
+
+}
+
+#kenny .body .body-top {
+     background-color: #ee314d;
+    border-radius: 45%;
+    height: 90px;
+    left: -24px;
+    top: 45px;
+    width: 180px;
+    border: 1px solid #333;
+}
+
+#kenny .body .left-palm {
+    background-color: #623919;
+    border-radius: 50%;
+    height: 17px;
+    left: -3px;
+    top: 120px;
+    width: 17px;
+    z-index: 2;
+
+}
+
+#kenny .body .left-thumb {
+     background: none repeat scroll 0 0 #623919;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 7px;
+    left: 9px;
+    top: 122px;
+    width: 7px;
+    z-index: 2;
+
+}
+
+#kenny .body .right-palm {
+    background-color: #623919;
+    border-radius: 50%;
+    height: 17px;
+    left: 80px;
+    top: 120px;
+    width: 17px;
+    z-index: 2;
+
+}
+
+#kenny .body .right-thumb {
+    background: none repeat scroll 0 0 #623919;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 7px;
+    left: 78px;
+    top: 122px;
+    width: 7px;
+    z-index: 2;
+
+}
+#kenny .body .line-1 {
+    border-left: 1px solid black;
+    height: 20px;
+    left: 10px;
+    top: 109px;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    z-index: 2;
+}
+#kenny .body .line-2 {
+    border-left: 1px solid black;
+    height: 20px;
+    left: 82px;
+    top: 109px;
+    transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    z-index: 2;
+}
+
+
+
+#kenny .body  .shirt {
+   
+    background: none repeat scroll 0 0 #333;
+    height: 34px;
+    left: 46px;
+    top: 110px;
+    width: 1px;
+     z-index: 2;
+    
+}
+
+
+
+#kenny .trap { 
+ border-bottom: 52px solid #EB5A0D;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 53px;
+    left: 5px;
+    top: 39px;
+    width: 56px;
+    z-index: 2; 
+border-radius: 5px;
+box-shadow: 0 1px 0 0; }
+
+#kenny .left-hand { 
+    background-color: #EB5A0D;
+    border-radius: 54%;
+    height: 23px;
+    left: -14px;
+    top: 99px;
+    transform: rotate(-76deg);
+    -ms-transform: rotate(-76deg);
+    width: 55px;
+     z-index: 1;
+}  
+
+#kenny .right-hand { 
+    background-color: #EB5A0D;
+    border-radius: 50%;
+    height: 23px;
+    left: 54px;
+    top: 99px;
+    transform: rotate(76deg);
+    -ms-transform: rotate(76deg);
+    width: 55px;
+     z-index: 1;
+} 
+
+#kenny .legs{
+    background-color: #eb5a0d;
+    height: 25px;
+    left: 10px;
+    top: 135px;
+    width: 77px;
+    z-index: 1;
+}
+
+#kenny .feet {
+
+    background-color: #000;
+    border-radius: 10px;
+    height: 4px;
+    left: 6px;
+    top: 159px;
+    width: 84px;
+   }
