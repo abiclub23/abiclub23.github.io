@@ -1,0 +1,95 @@
+ @keyframes arrowed {
+
+    0% { }
+    50%{-webkit-transform:translateY(5px);transform:translateY(5px);}
+    100%{-webkit-transform:translateY(-2px);transform:translateY(-2px);}
+  }
+
+  @-webkit-keyframes arrowed {
+
+    0% { }
+    50%{-webkit-transform:translateY(5px);transform:translateY(5px);}
+    100%{-webkit-transform:translateY(-2px);transform:translateY(-2px);}
+  }
+
+  @keyframes titleAnimation {
+    0% { opacity: 0 }
+    25 { opacity: 0.5 }
+    50% { opacity: 1 }
+    75% { opacity: 0.0 }
+    100% { opacity: 0 }
+}
+
+@-webkit-keyframes titleAnimation {
+    0% { opacity: 0 }
+    25 { opacity: 0.5 }
+    50% { opacity: 1 }
+    75% { opacity: 0.0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation { 
+  20% { -webkit-transform: scale(1.05); transform: scale(1.05); }
+  60% { -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
+}
+
+@-webkit-keyframes imageAnimation { 
+  20% { -webkit-transform: scale(1.05); transform: scale(1.05); }
+  60% { -webkit-transform: scale(1.1) rotate(3deg); transform: scale(1.1) rotate(3deg); }
+}
+
+@keyframes width{
+  from {width: 0%;}
+    to {width: 100%;}
+}
+
+@-webkit-keyframes width{
+  from {width: 0%;}
+    to {width: 100%;}
+}
+
+@keyframes pulse {
+  0% { }
+  50% { -webkit-transform: scale(1.2); transform: scale(1.2);color:#45d4ff;}
+  100% {color:#45d4ff; }
+}
+
+@-webkit-keyframes pulse {
+  0% { }
+  50% { -webkit-transform: scale(1.2); transform: scale(1.2);color:#45d4ff;}
+  100% {color:#45d4ff; }
+}
+
+@-webkit-keyframes rotate1 {
+  from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg);}
+  to { -webkit-transform: rotateY(720deg); transform: rotateY(720deg); visibility:none; }
+}
+
+@keyframes rotate1 {
+  from { -webkit-transform: rotateY(0deg); transform: rotateY(0deg);}
+  to { -webkit-transform: rotateY(720deg); transform: rotateY(720deg); visibility:none; }
+}
+
+@-webkit-keyframes loader {
+
+  0% {-webkit-transform:translateX(-35%)  }
+  
+   20% {-webkit-transform:translateX(-5%)  }
+    40% {-webkit-transform:translateX(25%) }
+    60%{-webkit-transform:translateX(50%) ;}
+    80%{-webkit-transform:translateX(75%) ;}
+
+    100%{-webkit-transform:translateX(100%) ;}
+}
+
+@keyframes loader {
+
+  0% {transform:translateX(-35%) ; }
+  
+   20% {transform:translateX(0%) ; }
+    40% {transform:translateX(25%) ; }
+    60%{transform:translateX(50%) ;}
+    80%{transform:translateX(75%) ;}
+
+    100%{transform:translateX(100%) ;}
+}

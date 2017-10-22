@@ -1,0 +1,596 @@
+#wrap {
+    background-color: #77CEE1;
+    
+    overflow: hidden;
+    width: 100%;
+    
+   
+}
+
+.row.character-row {
+    margin-left: 25%;
+    margin-top: 45%;
+}
+
+#wrap {
+    background-color: #77CEE1;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    
+   
+}
+
+ @font-face {
+    font-family: texasFont;
+    src: url("../fonts/CAPTH.ttf");
+}
+
+@font-face {
+    font-family: southpark;
+    src: url("../fonts/southpark.ttf");
+}
+
+.col-md-3 {
+    width: 18%;
+}
+#scenery *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#scenery
+{
+   
+}
+#scenery .mountain-1{
+border-color: transparent transparent #346B56;
+    border-style: solid;
+    border-width: 0 510px 443px;
+    height: 0;
+    left: -275px;
+    top: 28%;
+    width: 0;
+}
+
+
+#scenery .mountain-1 .snow-cap {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 118px 103px;
+    height: 0;
+    left: -118px;
+    top: 0;
+    width: 0;
+    border-radius: 40px;
+
+}
+
+#scenery .mountain-3{
+ border-color: transparent transparent #326C54;
+    border-style: solid;
+    border-width: 0 600px 394px;
+    height: 0;
+    left: 648px;
+    top: 33%;
+    width: 0;
+    
+}
+
+
+
+#scenery .mountain-3 .snow-cap {
+    border-color: transparent transparent #fff;
+    border-style: solid;
+    border-width: 0 156px 103px;
+    height: 0;
+    left: -156px;
+    top: 0;
+    width: 0;
+    border-radius: 40px;
+
+}
+
+
+#scenery .mountain-2 {
+   border-color: transparent transparent #276E36;
+    border-style: solid;
+    border-width: 0 495px 345px;
+    height: 0;
+    left: 299px;
+    top: 35%;
+    width: 0;
+    
+    
+}
+
+
+#scenery .mountain-2 .snow-cap {
+     border-color: transparent transparent #fff;
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 0 152px 106px;
+    height: 0;
+    left: -152px;
+    top: 0;
+    width: 0;
+
+}
+
+
+.cloud {
+    width: 350px; height: 120px;
+    
+    background: #f2f9fe;
+   
+    -webkit-transform:scale(0.6);
+    transform:scale(0.6);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    
+    position: relative;
+    
+}
+
+.cloud.cloud1 { left:6%;top:8%;}
+.cloud.cloud2 { left:30%;top:12%;}
+.cloud.cloud3 { left:60%;top:10%;}
+
+
+.cloud:after, .cloud:before {
+    content: '';
+    position: absolute;
+    background: #f2f9fe;
+    z-index: -1
+}
+
+.cloud:after {
+    width: 100px; height: 100px;
+    top: -50px; left: 50px;
+    
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.cloud:before {
+    width: 180px; height: 180px;
+    top: -90px; right: 50px;
+    
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+}
+
+.tree-1 {
+    top: 58%;
+left: 25%;
+}
+
+.tree-2 {
+    top: 57%;
+left: 28%;
+}
+.tree-3 {
+    top: 58%;
+left: 38%;
+}
+.tree-4 {
+    top: 59%;
+left: 42%;
+}
+.tree-1 .tree-top:before{
+    border-bottom: 99px solid #26B52B;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    content: "";
+    left: -430px;
+    top: -170px;
+}
+.tree-1 .tree-top:after{
+    border-bottom: 120px solid #26B52B;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    content: "";
+    left: -451px;
+    top: -131px;
+}
+
+
+.tree-1 .tree-mid:before{
+    border-bottom: 140px solid #26B52B;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    content: "";
+    left: -470px;
+    top: -90px;
+}
+.tree-1 .tree-mid:after{
+    border-bottom: 160px solid #26B52B;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    content: "";
+    left: -490px;
+    top: -40px;
+}
+
+
+.tree-1 .tree-top,  .tree-1 .tree-top:before, .tree-1 .tree-top:after , .tree-1 .tree-mid,  .tree-1 .tree-mid:before,  .tree-mid:after ,.tree-2 .tree-top,.tree-2 .tree-top:before, .tree-2 .tree-top:after ,
+.tree-2 .tree-mid,  .tree-2 .tree-mid:before, .tree-2 .tree-mid:after{
+    border-radius: 40px;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+
+.tree-3 .tree-top,  .tree-3 .tree-top:before, .tree-3 .tree-top:after , .tree-3 .tree-mid,  .tree-3 .tree-mid:before,  .tree-mid:after ,.tree-4 .tree-top,.tree-4 .tree-top:before, .tree-4 .tree-top:after ,
+.tree-4 .tree-mid,  .tree-4 .tree-mid:before, .tree-4 .tree-mid:after , .tree-4 .tree-btm{
+    border-radius: 40px;
+    height: 0;
+    position: absolute;
+    width: 0;
+    
+}
+ 
+.tree-2 .tree-top:before{
+    border-bottom: 99px solid #26B52B;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    content: "";
+    left: -115px;
+    top: -170px;
+}
+.tree-2 .tree-top:after{
+    border-bottom: 120px solid #26B52B;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    content: "";
+    left: -132px;
+    top: -131px;
+}
+
+
+.tree-2 .tree-mid:before{
+    border-bottom: 140px solid #26B52B;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    content: "";
+    left: -150px;
+    top: -100px;
+}
+.tree-2 .tree-mid:after{
+    border-bottom: 160px solid #26B52B;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    content: "";
+    left: -174px;
+    top: -50px;
+}
+
+
+ 
+
+.tree-3 .tree-top:after{
+    border-bottom: 120px solid #26B52B;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    content: "";
+    left: 520px;
+    top: -124px;
+}
+
+
+.tree-3 .tree-mid:before{
+    border-bottom: 140px solid #26B52B;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    content: "";
+    left: 500px;
+    top: -100px;
+}
+.tree-3 .tree-mid:after{
+    border-bottom: 155px solid #26B52B;
+    border-left: 155px solid transparent;
+    border-right: 155px solid transparent;
+    content: "";
+    left: 475px;
+    top: -75px;
+}
+
+
+.tree-4 .tree-top:before{
+    border-bottom: 100px solid #26B52B;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    content: "";
+    left: 815px;
+    top: -225px;
+}
+
+
+.tree-4 .tree-top:after{
+    border-bottom: 120px solid #26B52B;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    content: "";
+    left: 800px;
+    top: -195px;
+}
+
+
+.tree-4 .tree-mid:before{
+    border-bottom: 140px solid #26B52B;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    content: "";
+    left: 780px;
+    top: -160px;
+}
+
+
+.tree-4 .tree-mid:after{
+    border-bottom: 155px solid #26B52B;
+    border-left: 155px solid transparent;
+    border-right: 155px solid transparent;
+    content: "";
+    left: 770px;
+    top: -120px;
+}
+
+.tree-4 .tree-btm{
+    border-bottom: 155px solid #26B52B;
+    border-left: 155px solid transparent;
+    border-right: 155px solid transparent;
+    content: "";
+    left: 770px;
+    top: -70px;
+}
+
+
+#scenery .busstop-sign {
+
+    /*top:55%;*/
+    left:27%;
+}
+#scenery .busstop-sign .rod {
+
+    background-color: #4d3a28;
+   
+    height: 300px;
+    left: -180px;
+    top: -100px;
+    width: 7px;
+    z-index: 2;
+
+}
+
+
+#scenery .busstop-sign .sign {
+
+    background-color: #f0df0c;
+    height: 130px;
+    left: -245px;
+    top: -125px;
+    transform: rotate(43deg);
+    -ms-transform: rotate(43deg);
+    width: 130px;
+    z-index: 2;
+    border-radius: 5px;
+
+
+}
+
+
+
+#scenery .busstop-sign .sign .sign-border {
+
+   background-color: transparent;
+    border: 2px solid #333;
+    height: 120px;
+    left: 3px;
+    top: 3px;
+   
+    width: 120px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+#scenery .busstop-sign .sign .sign-border .title {
+
+   
+   font-family: southpark;
+    font-size: 18px;
+    left: 6px;
+    top: 40px;
+    transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    
+}
+
+#scenery .busstop-sign .sign .sign-border .icons{
+
+   
+   
+    left: 70px;
+    top: 100px;
+    transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    
+}
+
+#scenery .busstop-sign .sign .sign-border .icons .fa.fa-github {left:25px;}
+#scenery .busstop-sign .sign .sign-border .icons .fa {transform:scale(1.2); color:#333;}
+#scenery .sp-sign{
+    perspective: 1000px;
+
+    z-index: 10;
+    left: 38%;
+top: 62%;
+}
+
+
+#scenery .sp-sign .panell {
+
+   background-color: #9c6c56;
+    border: 1px solid #875942;
+    height: 30px;
+    transform: rotateY(-62deg);
+    -ms-transform: rotateY(-62deg);
+    width: 150px;
+    z-index: 2;
+   
+
+}
+
+#scenery .sp-sign .panell.panel-1 {
+   
+    left: 745px;
+    top: 125px;
+}
+
+#scenery .sp-sign .panell.panel-2 {
+   
+    left: 745px;
+    top: 156px;
+}
+
+#scenery .sp-sign .panell.panel-3 {
+   
+    left: 745px;
+    top: 186px;
+}
+
+#scenery .sp-sign .panell.panel-4 {
+   
+    left: 745px;
+    top: 216px;
+}
+#scenery .sp-sign .panell.panel-5 {
+   
+    background-color: transparent;
+    border: 0;
+    font-family: texasFont;
+    font-size: 35px;
+    font-weight: bold;
+    left: 745px;
+    top: 140px;
+}
+
+
+#scenery .sp-sign .rod {
+
+    background-color: #875942;
+    height: 100px;
+    left: 815px;
+    top: 189px;
+    width: 7px;
+
+}
+
+#scenery .road-snow {
+
+    background-color: #fff;
+    height: 35%;
+    left: 0;
+    top: 70%;
+    width: 100%;
+}
+
+#scenery .road-snow .snow-hump{
+
+    background-color: #fff;
+    border-radius: 50%;
+    height: 30px;
+     top: -12px;
+    width: 150px;
+    z-index: 1;
+}
+
+#scenery .road-snow  .snow-hump.hump1{left: -5px;}
+#scenery .road-snow .snow-hump.hump2{ left: 65px; top: -17px;}
+#scenery .road-snow .snow-hump.hump3{left: 185px;top: -25px;}
+#scenery .road-snow .snow-hump.hump4{ left: 285px; top: -12px; }
+#scenery .road-snow .snow-hump.hump5{ left: 325px; top: -30px; }
+#scenery .road-snow .snow-hump.hump6{ left: 410px; top: -25px; }
+#scenery .road-snow .snow-hump.hump6b{ left: 520px; top: -25px; }
+#scenery .road-snow .snow-hump.hump7{ left: 605px; top: -25px; }
+#scenery .road-snow .snow-hump.hump8{ left: 605px; top: -35px; }
+#scenery .road-snow .snow-hump.hump9{ left: 705px; top: -25px; }
+#scenery .road-snow .snow-hump.hump10{ left: 800px; top: -27px; }
+#scenery .road-snow .snow-hump.hump11{ left: 900px; top: -24px; }
+#scenery .road-snow .snow-hump.hump12{ left: 955px; top: -25px; }
+#scenery .road-snow .snow-hump.hump13{ left: 1025px; top: -45px; }
+#scenery .road-snow .snow-hump.hump14{ left: 1025px; top: -25px; }
+#scenery .road-snow .snow-hump.hump15{ left: 1125px; top: -27px; }
+#scenery .road-snow .snow-hump.hump16{ left: 1155px; top: -50px; }
+#scenery .road-snow .snow-hump.hump17{ left: 1090px; top: -57px; }
+#scenery .road-snow .snow-hump.hump18{ left: 1125px; top: -27px; }
+#scenery .road-snow .snow-hump.hump19{ left: 1125px; top: -27px; }
+#scenery .road-snow .snow-hump.hump20{ left: 1215px; top: -26px; }
+#scenery .road-snow .snow-hump.hump21{ left: 1265px; top: -50px; }
+#scenery .road-snow .snow-hump.hump22{ left: 1335px; top: -54px; }
+#scenery .road-snow .snow-hump.hump23{ left: 1317px; top: -25px; }
+
+#scenery .road-snow .snow-hump.hump24{ left: 1421px; top: -25px; }
+#scenery .road-snow .snow-hump.hump25{ left: 1395px; top: -46px; }
+#scenery .road-snow .snow-hump.hump26{ left: 1530px; top: -42px; width: 410px; height: 41px; }
+#scenery .road-snow .snow-hump.hump27{ left: 1531px; top: -21px; width: 404px; }
+
+
+
+/*common css*/
+ .head .right-eye .eyelid-top
+{
+    top: -18px;
+    left: 0px;
+    width: 30px;
+    height: 17px;
+    
+    border-radius: 50% 50% 0 0;
+    background-color: #FDD6AC;
+    
+}
+
+ .head .right-eye .eyelid-bottom
+{
+    bottom: -11px;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+    
+    border-radius: 0 0 50% 50%;
+    background-color: #FDD6AC;
+    
+}
+
+.head .left-eye .eyelid-top
+{
+    top: -21px;
+    left: 0px;
+    width: 30px;
+    height: 20px;
+   
+    border-radius: 50% 50% 0 0;
+    background-color: #FDD6AC;
+    
+}
+
+ .head .left-eye .eyelid-bottom
+{
+    bottom: -11px;
+    left: 0px;
+    width: 30px;
+    height: 10px;
+   
+    border-radius: 0 0 50% 50%;
+     background-color: #FDD6AC;
+    
+}

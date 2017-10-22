@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+    
+}
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url("../images/BB_bg1.jpg");
+    background-size: 103%;
+    background-position: -50px 0;
+    background-repeat: no-repeat;
+    font-family: Squares;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+@font-face {
+    font-family: Squares;
+    src: url("Squares.otf") format("opentype");
+}
+
+section {
+    margin-bottom: 10%;
+    text-align: center;
+    color: #fff;
+}
+section .input-group {
+    display: inline-block;
+}
+.input-group.custom-input {
+    padding-left: 20px;
+}
+h2 {
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 13%;
+    background: #5cb85c;
+    width: 27%;
+    margin-left: 38%;
+    margin-top: 3%;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.intro-txt {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.about {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    color: #fff;
+}
+.popover {
+    color: #5cb85c;
+}
+.about:hover, .about:focus {
+    color: #fff;
+}
+label {
+    color: #fff;
+    font-size: 20px;
+}
+.input-group-lg>.form-control {
+    padding: 6px 10px;
+    margin-left: 10%;
+}
+#result span.font {
+    background-color: #315131;
+    border: 1px solid #ffffff;
+    color: #fff;
+    font-size: 65px;
+    padding: 5px 10px;
+}
+#result span {
+    padding: 5px;
+    font-size: 55px;
+}
+#result .wrap {
+    display: block;
+    position: relative;
+}
+.wrap span:first-child {
+    text-transform: capitalize;
+}
+span.atomic {
+    color: #fff;
+    font-size: 7px !important;
+    position: absolute;
+    bottom: 5px;
+}
+span.molar {
+    color: #fff;
+    font-size: 7px !important;
+    position: absolute;
+    top: 5px;
+}
+.form-control {
+    border-radius: 6px !important;
+}
+
+#ie-msg {
+  margin-top:60px;
+  width:90%;
+  margin-left: 60px;
+}
+.alert.custom {
+    background: url("../images/crop.png") no-repeat scroll 10px 10px / 70px 65px #f2dede;
+    font-size: 18px;
+    margin: 30px auto;
+    padding: 20px 0 15px 65px;
+    width: 30%;
+}
+p.bg-success {
+    margin: 0 auto 25px;
+    padding: 15px 0 15px 45px;
+    width: 24%;
+    border-radius: 6px;
+    font-size: 18px;
+    background: url("../images/jp1.png") no-repeat scroll 8px 8px / 40px 65px #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+.main .btn-ptop {
+    padding-top: 25px;
+    margin-left: 4%;
+}
+

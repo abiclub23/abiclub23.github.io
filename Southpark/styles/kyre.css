@@ -1,0 +1,378 @@
+
+
+
+#kyre *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#kyre {
+    left: 55px;
+    position: absolute;
+    top: -8px;
+}
+
+#kyre .head {
+    z-index: 5;
+}
+
+#kyre .head-main
+{
+       background-color: #FDD6AC;
+    border-radius: 0 0 90px 90px;
+    height: 67px;
+    left: -11px;
+    top: 37px;
+    width: 110px;
+    z-index: 2;
+}
+#kyre .beanie
+{
+    background-color: #59e015;
+    border-radius: 10px;
+    height: 50px;
+    left: -10px;
+    top: -5px;
+    width: 109px;
+    border: 1px solid #333;
+}
+
+#kyre .beanie-stripe
+{
+   background: none repeat scroll 0 0 #20b72d;
+    height: 33px;
+    left: -1px;
+    top: 9px;
+    width: 92px;
+    z-index: 5;
+
+}
+
+#kyre .beanie-stripe-curve
+{
+  background: none repeat scroll 0 0 #f2d7ad;
+   
+    border-radius: 50%;
+    height: 12px;
+    left: 6px;
+    top: 35px;
+    width: 77px;
+    z-index: 5;
+
+}
+
+
+#kyre .beanie-lflap{
+
+   background: none repeat scroll 0 0 #59e015;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 17px;
+    left: -32px;
+    top: 42px;
+    transform: rotate(-75deg);
+    -ms-transform: rotate(-75deg);
+    width: 50px;
+    z-index: 3;
+}
+
+#kyre .beanie-rflap{
+
+     background: none repeat scroll 0 0 #59e015;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 17px;
+    left: 70px;
+    top: 40px;
+    transform: rotate(68deg);
+    -ms-transform: rotate(68deg);
+    width: 50px;
+    z-index: 3;
+}
+
+
+    
+#kyre .head .left-eye
+{
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 28px;
+    left: 19px;
+    overflow: hidden;
+    top: 45px;
+    width: 25px;
+    z-index: 7;}
+
+#kyre .head .left-eye .left-pupil
+{ background: none repeat scroll 0 0 #110b00;
+    border-radius: 50%;
+    height: 4px;
+    left: 15px;
+    top: 13px;
+    width: 4px;
+}
+
+
+
+#kyre .head .right-eye
+{
+     background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 29px;
+    left: 44px;
+    overflow: hidden;
+    top: 45px;
+    width: 25px;
+    z-index: 7;
+}
+
+#kyre .head .right-eye .right-pupil
+{ background: none repeat scroll 0 0 #110b00;
+    border-radius: 50%;
+    height: 4px;
+    left: 8px;
+    top: 13px;
+    width: 4px;
+}
+
+#kyre .mouth {
+   border-bottom: 1px solid #110b00;
+    border-radius: 50%;
+    height: 2px;
+    left: 35px;
+    top: 87px;
+    width: 18px;
+    z-index: 2;
+}
+
+
+
+#kyre .body .collar-1 { 
+
+   background-color: #41A233;
+    border-radius: 20px;
+    height: 6px;
+    left: 5px;
+    top: 97px;
+    transform: rotate(25deg);
+     -ms-transform: rotate(25deg);
+    width: 42px;
+    z-index: 2;
+
+}
+
+#kyre .body .collar-2 { 
+background-color: #41A233;
+    border-radius: 20px;
+    height: 6px;
+    left: 44px;
+    top: 96px;
+    transform: rotate(150deg);
+     -ms-transform: rotate(150deg);
+    width: 43px;
+    z-index: 2;
+
+}
+
+#kyre .body .body-top {
+     background-color: #ee314d;
+    border-radius: 45%;
+    height: 90px;
+    left: -24px;
+    top: 45px;
+    width: 180px;
+    border: 1px solid #333;
+}
+
+#kyre .body .left-palm {
+    background-color: #59E015;
+    border-radius: 50%;
+    height: 17px;
+    left: -3px;
+    top: 120px;
+    width: 17px;
+    z-index: 2;
+
+}
+
+#kyre .body .left-thumb {
+     background: none repeat scroll 0 0 #59E015;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 7px;
+    left: 9px;
+    top: 122px;
+    width: 7px;
+    z-index: 2;
+
+}
+
+#kyre .body .right-palm {
+    background-color: #59E015;
+    border-radius: 50%;
+    height: 17px;
+    left: 80px;
+    top: 120px;
+    width: 17px;
+    z-index: 2;
+
+}
+
+#kyre .body .right-thumb {
+    background: none repeat scroll 0 0 #59E015;
+    border: 1px solid #333;
+    border-radius: 50%;
+    height: 7px;
+    left: 78px;
+    top: 122px;
+    width: 7px;
+    z-index: 2;
+
+}
+#kyre .body .line-1 {
+    border-left: 1px solid black;
+    height: 20px;
+    left: 10px;
+    top: 109px;
+    transform: rotate(4deg);
+    -ms-transform: rotate(4deg);
+    z-index: 2;
+}
+#kyre .body .line-2 {
+    border-left: 1px solid black;
+    height: 20px;
+    left: 82px;
+    top: 109px;
+    transform: rotate(-4deg);
+    -ms-transform: rotate(-4deg);
+    z-index: 2;
+}
+
+
+
+#kyre .body  .shirt {
+   
+    background: none repeat scroll 0 0 #333;
+    height: 34px;
+    left: 46px;
+    top: 110px;
+    width: 1px;
+     z-index: 2;
+    
+}
+
+
+#kyre .body  .pocket {
+   
+    
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    height: 17px;
+    border-color: #333;
+    top: 114px;
+    width: 14px;
+    z-index: 2;
+    
+}
+
+#kyre .body  .pocket.leftp {
+   
+    
+    left: 23px;
+    
+    
+}
+
+#kyre .body  .pocket.rightp {
+   
+    
+    left: 56px;
+    
+    
+}
+
+#kyre .body .triangle {
+   border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid black;
+    left: -1px;
+    width: 0;
+   
+}
+#kyre .body .triangle .empty {
+      border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #eb5a0d;
+    left: -6px;
+    top: -11px;
+    width: 0;
+}
+
+
+
+#kyre .trap { 
+ border-bottom: 52px solid #EB5A0D;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    height: 53px;
+    left: 5px;
+    top: 39px;
+    width: 56px;
+    z-index: 1; 
+border-radius: 5px; }
+
+#kyre .left-hand { 
+    background-color: #EB5A0D;
+    border-radius: 54%;
+    height: 23px;
+    left: -14px;
+    top: 99px;
+    transform: rotate(-76deg);
+    -ms-transform: rotate(-76deg);
+    width: 55px;
+     z-index: 1;
+}  
+
+#kyre .right-hand { 
+    background-color: #EB5A0D;
+    border-radius: 50%;
+    height: 23px;
+    left: 54px;
+    top: 99px;
+    transform: rotate(76deg);
+    -ms-transform: rotate(76deg);
+    width: 55px;
+     z-index: 1;
+} 
+
+#kyre .legs{
+    background-color: #32694F;
+    height: 25px;
+    left: 10px;
+    top: 135px;
+    width: 77px;
+    
+}
+
+#kyre .left-foot {
+    background-color: #000;
+    border-radius: 50%;
+    height: 6px;
+    left: 10px;
+    top: 156px;
+    width: 40px;
+}
+
+#kyre .right-foot {
+    background-color: #000;
+    border-radius: 50%;
+    height: 6px;
+    left: 47px;
+    top: 156px;
+    width: 40px;
+}
+
